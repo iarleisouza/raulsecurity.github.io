@@ -11402,9 +11402,23 @@ section.resume-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 75rem;
+  position: relative;
 }
+video {
+  width: 80%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+  position: absolute;
+  border-top: 28px solid black;
+  border-bottom: 30px solid black;
+  }
 section.resume-section .resume-section-content {
   width: 100%;
+  position: relative;
+  background: rgba( 0,0,0,.5);
 }
 
 @media (min-width: 768px) {
